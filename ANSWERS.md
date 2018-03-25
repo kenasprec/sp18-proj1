@@ -1,6 +1,8 @@
 # Q0: Why is this error being thrown?
+This error is being thrown because it is trying to call on the model "Pokemon".  However, this model does not exist at this moment.
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+The random pokemon are appearing because the seed file is generating pokemon without trainers.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
